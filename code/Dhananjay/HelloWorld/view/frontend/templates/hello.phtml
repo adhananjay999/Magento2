@@ -1,0 +1,10 @@
+<?php
+/* @var \Dhananjay\HelloWorld\Block\Hello $block */
+?>
+<label><?= __("Data retrieved from Block is ") ?></label>
+<h1><?= $block->getText() ?></h1> <div class=""></div>
+<!--
+<img src="<?php echo $block->getUrl('pub/media/images/')?>nature.jpeg" alt ="Nature.jpeg image"/>
+-->
+
+<img src="<?php echo $block->getImagesUrl()?>nature.jpeg" alt ="dog.jpeg image"/>
