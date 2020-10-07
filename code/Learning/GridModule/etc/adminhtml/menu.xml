@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    <add id="Learning_GridModule::gridmodule" title="Grid Module" module="Learning_GridModule"  resource="Learning_GridModule::gridmodule"/>
+    <add id="Learning_GridModule::post" title="Customers" module="Learning_GridModule"  action="learning_gridmodule/post/index" resource="Learning_GridModule::post" parent="Learning_GridModule::gridmodule"/>
+    </menu>
+</config>
