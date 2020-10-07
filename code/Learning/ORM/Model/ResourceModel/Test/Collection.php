@@ -1,0 +1,14 @@
+<?php
+namespace Learning\ORM\Model\ResourceModel\Test;
+
+class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
+{
+    
+    protected function _construct()
+    {
+        $this->_init(
+            'Learning\ORM\Model\Test',
+            'Learning\ORM\Model\ResourceModel\Test'
+        );
+    }
+}
